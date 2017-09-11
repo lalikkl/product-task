@@ -23,6 +23,7 @@ namespace Product
         public MainWindow()
         {
             InitializeComponent();
+            DataContext = new MainViewModell();
         }
     }
 }
